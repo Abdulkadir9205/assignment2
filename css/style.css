@@ -1,0 +1,200 @@
+
+/*Global Styles*/
+a{
+  text-decoration:none;
+}
+
+h2{
+ margin:0;
+ padding:0;
+}
+
+.container{
+  max-width:85%;
+  margin:auto;
+}
+
+.btn{
+ border:none;
+ border-radius:5px;
+ padding:10px;
+ background-color:orange;
+ color:ghostwhite;
+}
+ul li{
+  list-style-type:none;
+}
+
+.active{
+ padding:10px;
+  font-weight:bolder;
+  background-color:orange;
+}
+
+
+.dark{
+  background-color:grey;
+  color:white;
+  padding:10px;
+  border: 2px solid orange;
+}
+
+/*Header Styles*/
+#header {
+   background-color:grey;
+   overflow:hidden;
+   border-bottom: 3px solid orange;
+}
+
+#header #brand{
+ float:left;
+}
+
+#header #brand h3{
+ padding:5px;
+ border:2px solid orange;
+ color:white;
+}
+
+
+#header #nav{
+ float:right;
+}
+
+#header #nav ul li{
+ float:left;
+ padding:5px;
+}
+
+#header #nav ul li a{
+ color:white;
+}
+
+#header #nav ul li:hover{
+  padding:10px;
+  font-weight:bolder;
+  background-color:orange;
+}
+
+/*banner styles*/
+#banner {
+  height:400px;
+  background-image:url('../img/bg.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  background-position:center;
+  overflow:hidden;
+  border-bottom:3px solid orange;
+}
+
+#banner p{
+  margin-top:150px;
+  font-size:45px;
+  color:grey;
+  font-family:sans-serif;
+}
+
+/* newsletter styles */
+#newsletter{
+  overflow:hidden;
+  background-color:grey;
+  border-bottom:3px solid orange;
+}
+
+
+#newsletter form input{
+  border:none;
+  background-color:lightgrey;
+  width:600px;
+  height:40px;
+  margin:10px;
+}
+/*details styles*/
+#details{
+	overflow:hidden;
+}
+
+#details .box{
+	width:25%;
+        margin:40px;
+	float:left;
+}
+
+#details .box img{
+	width: 100px; 
+	height: 100px;
+	border-radius: 50%;
+}
+
+/*about styles*/
+#about_details{
+  overflow:hidden;
+}
+
+#about_details .about_sec{
+   width:45%;
+   margin:5px;
+   float:left;
+}
+
+/*Service Styles*/
+#service_details ul li {
+   background-color: grey;
+   color:white;
+   border: 2px solid orange;
+   margin-bottom: 6px;
+   padding:10px;
+   border-radius: 6px;
+}
+
+#service_details ul li h5{
+  text-transform:uppercase;
+  font-weight:bolder;
+}
+
+#service_details ul li p{
+   text-align: justify;
+}
+
+
+#contact_details{
+  overflow:hidden;
+}
+
+#contact_details .contact_box{
+   width:45%;
+   margin:5px;
+   float:left;
+   border: 2px solid grey;
+   border-radius: 6px;
+   padding: 5px;
+}
+
+#contact_details .contact_box input, textarea{
+  border:none;
+  border-top: 2px solid orange;
+  border-bottom: 2px solid orange; 
+  height:40px;
+}
+
+#contact_details .contact_box textarea{
+  height:60px;
+}
+
+#contact_details .contact_box ul li{
+  border: 2px solid orange;
+  padding: 10px;
+  margin: 5px;
+  border-radius:6px;
+}
+
+
+/*footer styles*/
+#footer{
+ background-color:grey;
+ color:white;
+ border-top: 3px solid orange;
+ padding:10px;
+}
+
+
